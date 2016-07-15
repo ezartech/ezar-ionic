@@ -1,0 +1,18 @@
+/* ionic style overrides */
+
+body {
+    background-color: transparent;
+}
+
+.pane {
+    background-color: transparent;
+}
+
+.bar {
+    opacity: 0.5;
+}
+
+#title {
+    color: darkred;
+    font-weight: bolder;
+}
