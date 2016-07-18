@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <widget id="com.ezartech.demos.ionicezar" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>IonicEzAR</name>
+  <name>ezAR-Ionic</name>
   <description>
-        An Ionic Framework and Cordova project.
+       Demonstrates using ezAR with Ionic Framework 
     </description>
   <author email="you@example.com" href="http://example.com.com/">
       Your Name Here
