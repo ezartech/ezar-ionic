@@ -8,11 +8,10 @@ body {
     background-color: transparent;
 }
 
-.bar {
-    opacity: 0.5;
+.ezar {
 }
 
-#title {
-    color: darkred;
-    font-weight: bolder;
+.bar.ezar {
+    opacity: 0.45;
 }
+
