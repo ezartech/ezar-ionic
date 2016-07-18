@@ -21,7 +21,8 @@
     "cordova-plugin-splashscreen",
     "cordova-plugin-statusbar",
     "ionic-plugin-keyboard",
-    "..\\..\\plugins\\com.ezartech.ezar.videoOverlay"
+    "..\\..\\plugins\\com.ezartech.ezar.videoOverlay",
+    "..\\..\\plugins\\com.ezartech.ezar.snapshot"
   ],
   "cordovaPlatforms": [
     "android"
