@@ -37,12 +37,13 @@ angular.module('ionicApp', ['ionic'])
 .controller("AppController", function($scope, $timeout) {
   
   $scope.snapshotTimestamp = Date.now();
+  $scope.reverseCameraTimestamp = Date.now();
 
   $scope.snapshot = function() {
-          //ignore ghost clicks, wait 3 sec between invocations
-          if (Date.now() - $scope.snapshotTimestamp < 3000) return;
+          //ignore ghost clicks, wait 1.5 sec between invocations
+          if (Date.now() - $scope.snapshotTimestamp < 1500) return;
           $scope.snapshotTimestamp = Date.now();
-            
+          
           //get snapshot & revcamera buttons to hide/show
           var snapshotBtn = document.getElementById("snapshot");
           var revCameraBtn = document.getElementById("revcamera");
@@ -72,6 +73,10 @@ angular.module('ionicApp', ['ionic'])
     };
 
     $scope.reverseCamera = function() {
+      //ignore ghost clicks, wait 1.5 sec between invocations
+      if (Date.now() - $scope.reverseCameraTimestamp < 1500) return;
+      $scope.reverseCameraTimestamp = Date.now();
+
       var camera = ezar.getActiveCamera();
       if (!camera) {
         return; //no camera running; do nothing
