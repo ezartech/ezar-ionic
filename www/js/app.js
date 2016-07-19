@@ -46,7 +46,7 @@ angular.module('ionicApp', ['ionic'])
           var revCameraBtn = document.getElementById("revcamera");
           
           var inclWebView = true;    // include/exclude webView content on top of cameraView
-          var inclCameraBtns = false; // show/hide snapshot & revcamera btns
+          var inclCameraBtns = true; // show/hide snapshot & revcamera btns
 
           if (inclWebView && !inclCameraBtns) {
               revCameraBtn.classList.add("hide");
@@ -66,7 +66,7 @@ angular.module('ionicApp', ['ionic'])
               {encodingType: ezar.ImageEncoding.PNG,
                includeWebView: inclWebView,
                saveToPhotoAlbum: true});   
-          },0);   
+          },200);   
     };
 
     $scope.reverseCamera = function() {
