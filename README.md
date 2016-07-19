@@ -9,6 +9,7 @@ preview on background.
 Step-1.  Add the ezAR Cordova plugins to the project
 
      ionic plugin add <pathToEzAR>/plugins/com.ezartech.ezar.videooverlay
+     ionic plugin add <pathToEzAR>/plugins/com.ezartech.ezar.snapshot
      
 Step-2.  Add your target platform(s) to the project
 
