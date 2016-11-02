@@ -1,6 +1,6 @@
 # ezar-ionic example application
-Example single page Ionic app using the ezAR vidoeOverlay plugin to view camera 
-preview on background.  
+Example single page Ionic 1 app using the ezAR vidoeOverlay plugin to view camera 
+preview on background. Note: this is project uses Ionic 1, not Ionic 2.
 
 ![screenshot](screenshot1.jpg) 
 
